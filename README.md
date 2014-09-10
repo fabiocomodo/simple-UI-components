@@ -7,7 +7,7 @@ A simple collection of components to speed development of basic applications.
 
 Simple and adaptive forms.
 
-- [simple demo](http://afonsopacifer.com.br/simple-ui-components/form/simples-demo.htm)
-- [full demo](http://afonsopacifer.com.br/simple-ui-components/form/simples-demo.htm)
+- [simple demo](http://afonsopacifer.com.br/simple-ui-components/form/simple-demo.htm)
+- [full demo](http://afonsopacifer.com.br/simple-ui-components/form/full-demo.htm)
 
 dependencies: no

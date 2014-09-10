@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+	<meta charset="utf-8" />
+	<title>Form</title>
+
+	<!-- Estilos -->
+	<link rel="stylesheet" type="text/css" href="../assets/css/normalize.css"    /> <!-- reset    -->
+	<link rel="stylesheet" type="text/css" href="css/form.css" /> <!-- estilo   -->
+
+	<style type="text/css">
+
+		.form label {
+			float: left;
+			vertical-align: middle;
+			margin: 5px 1% ;
+			clear: right;
+		}
+
+		.clear {
+			clear: both;
+			display: block;
+			overflow: hidden;
+			visibility: hidden;
+			width: 0;
+			height: 0;
+		}
+
+	</style>
+
+	<!-- viewport -->
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+
+</head>
+
+<body>
+
+	<form action="enviar.php" method="POST" class="form">
+
+		<!-- Basicos -->
+
+		<h3>Elementos basicos</h3>
+
+
+		<input type="text" class="input-1" placeholder=".input-1" />
+
+		<input type="text" class="input-1" placeholder=".input-1" />
+
+		<input type="text" class="input-2" placeholder=".input-2" />
+
+		<input type="text" class="input-2" placeholder=".input-2" />
+
+		<input type="text" class="input-4" placeholder=".input-4" />
+
+		<input type="text" class="input-4" placeholder=".input-4" />
+
+		<input type="text" class="input-4" placeholder=".input-4" />
+
+		<input type="text" class="input-4" placeholder=".input-4" />
+
+		<textarea cols="26" rows="5" placeholder="textarea"/></textarea>
+
+		<input type="submit" value=".btn-env" class="btn-env"/>
+		<input type="reset"  value=".btn-lmp" class="btn-lmp"/>
+
+		<!-- Avançados -->
+		<div class="clear"></div>
+
+		<h3>Outros Elementos</h3>
+
+
+		<input type="color" class="input-4"/>
+
+		<input type="range" min="0" max="10" class="input-4"/>
+
+		<input type="password" placeholder="password" class="input-2"/>
+
+		<input type="datetime" placeholder="datetime" class="input-2"/>
+
+		<input type="datetime-local" placeholder="datetime-local" class="input-2"/>
+
+		<input type="search" placeholder="search" class="input-1"/>
+
+		<input type="time" class="input-4"/>
+
+		<input type="date"  class="input-4"/>
+
+		<input type="week" class="input-4"/>
+
+		<input type="month" class="input-4"/>
+
+		<input type="number" placeholder="number" class="input-2"/>
+
+		<input type="tel" placeholder="tel" class="input-2"/>
+
+		<input type="email" placeholder="email" class="input-2"/>
+
+		<input type="url" placeholder="url" class="input-2"/>
+
+		<input type="checkbox" name="" value="checkbox" class="checkbox">
+		<label>Checkbox</label>
+
+		<input type="checkbox" name="" value="checkbox" class="checkbox">
+		<label>Checkbox</label>
+
+		<input type="radio" name="" value="radio" class="radio">
+		<label>Radio</label>
+
+		<input type="radio" name="" value="radio" class="radio">
+		<label>Radio</label>
+
+		<div class="clear"></div>
+		
+		<select class="select input-2">
+		  <option value="">select</option>
+		  <option value="">select</option>
+		  <option value="">select</option>
+		</select>
+
+	</form>
+
+</body>
+</html>
