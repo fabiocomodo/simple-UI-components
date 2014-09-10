@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+	<meta charset="utf-8" />
+	<title>Form</title>
+
+	<!-- Estilos -->
+	<link rel="stylesheet" type="text/css" href="../assets/css/normalize.css"    /> <!-- reset    -->
+	<link rel="stylesheet" type="text/css" href="css/form.css" /> <!-- estilo   -->
+
+	<!-- viewport -->
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+
+</head>
+
+<body>
+
+	<form action="enviar.php" method="POST" class="form">
+
+		<!-- Formulario -->
+
+		<input type="text" class="input-2" name="nome" placeholder="nome" />
+
+		<input type="text" class="input-2" name="email" placeholder="e-mail" />
+
+		<input type="text" class="input-2" name="fone" placeholder="telefone" />
+
+		<input type="text" class="input-2" name="assunto" placeholder="assunto" />
+
+		<textarea cols="26" rows="5" name="mensagem" placeholder="mensagem"/></textarea>
+
+		<input type="submit" value="Enviar" class="btn-env"/>
+		<input type="reset"  value="Limpar" class="btn-lmp"/>
+
+	</form>
+
+</body>
+</html>

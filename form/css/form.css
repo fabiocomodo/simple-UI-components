@@ -1,0 +1,96 @@
+@charset "UTF-8"; /* Codificação para caracteres especiais */
+
+.form {
+	width: 100%;
+	max-width: 500px;
+	color: #333;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.form input {
+	float: left;
+	height: 30px;
+	text-indent: 10px;
+	border:1px solid #999;
+	float: left;
+	background: #f9f9f9;
+	margin: 5px 1% ;
+}
+
+.form .input-1 {
+	width:98%;
+}
+
+.form .input-2 {
+	width:48%;
+}
+
+.form .input-4 {
+	width:23%;
+}
+
+.form textarea {
+	width:98%;
+	height: 100px;
+	padding: 10px;
+	border:1px solid #999;
+	float: left;
+	background: #f9f9f9;
+	margin: 5px 1%;
+	resize: none;
+}
+
+.form .btn-env {
+	border: 0px;
+	background:#11AA00;
+	color: #fff;
+	padding: 8px 15px;
+	float: left;
+	margin: 5px 1%;
+	text-indent: 0px;
+}
+
+.form .btn-env:hover {
+	background:#00D405;
+}
+
+.form .btn-lmp {
+	border: 0px;
+	background:#DB0C19;
+	color: #fff;
+	padding: 8px 15px;
+	float: left;
+	margin: 5px 1%;
+	text-indent: 0px;
+}
+
+.form .btn-lmp:hover {
+	background:#F15555;
+}
+
+.form .checkbox {
+	float: left;
+	height: 20px;
+	width:20px;
+	margin: 5px 1% ;
+	clear: both;
+}
+
+.form .radio {
+	float: left;
+	height: 20px;
+	width:20px;
+	margin: 5px 1% ;
+	clear: both;
+}
+
+.select {
+	float: left;
+	height: 30px;
+	text-indent: 10px;
+	border:1px solid #999;
+	float: left;
+	background: #f9f9f9;
+	margin: 5px 1% ;
+}
